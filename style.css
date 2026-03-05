@@ -1,0 +1,60 @@
+/* Базовые стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Навигационное меню */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Заголовки */
+h1 {
+    color: #222;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Контент */
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Таблица трек-листа */
+.tracklist {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tracklist th, .tracklist td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tracklist th {
+    background-color: #f2f2f2;
+}
